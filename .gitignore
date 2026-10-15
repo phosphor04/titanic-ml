@@ -1,0 +1,32 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local editor settings
+.vscode/
+
+# CatBoost logs
+catboost_info/
+
+# Local datasets
+data/raw/
+data/processed/
+
+# Experiment outputs
+results.txt
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Local environment variables and secrets
+.env
+.env.*
+
+# Old experimental code
+Old code/
